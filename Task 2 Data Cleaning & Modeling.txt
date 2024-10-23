@@ -1,0 +1,38 @@
+Task 02
+
+Data Cleaning
+----------------------------------------
+Data Set : Content.csv
+
+1. Delete column URL 
+2. Delete Column User ID
+3. Remove " from Column Category
+4. Rename Column Type to Content Type
+
+Total No. of Rows : 1001
+
+Data Set : Reaction.csv
+1. Rename Column Type to Reaction Type
+2. Delete Blank data from Column Reaction Type
+3. Delete Column User ID
+
+Total No. of Rows : 24574
+
+--------------------------------------------------------------
+Data Modelling
+
+1. Keep Reaction.csv as base file
+2. Use Vlookup formula and get the necessary columns to Reaction.csv from Content.csv and Reaction Types.csv
+
+--------------------------------------------------------------
+Get Top 5 Categories
+
+1. Copy Category Column Data and paste in a new sheet
+2. Remove Duplicates from Category Column in new sheet
+3. Use Sumif formula and get the total score for each Category
+4. Sort Score Column in Descending Order
+5. Name the Sheet as Aggregated Scores
+6. Copy Top Five Categories and Paste in New Sheet
+7. Name the Sheet as Top 5 Categories
+
+
